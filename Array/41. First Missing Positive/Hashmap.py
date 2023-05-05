@@ -14,7 +14,7 @@ class Solution:
                 
         i=1
         
-        while i:
+        while i:    
         
             if not i in hmap:
                 return i
