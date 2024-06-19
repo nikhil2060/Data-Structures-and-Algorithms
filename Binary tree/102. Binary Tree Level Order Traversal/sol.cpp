@@ -26,9 +26,7 @@ public:
                 q.push(currentNode->right);
             }
 
-            if (!temp.empty()) {
-                ans.push_back(temp);
-            }
+          
 
             for(int i=0;i<temp.size();i++)
             {
@@ -39,4 +37,4 @@ public:
 
         return ans;
     }
-};
+};8
